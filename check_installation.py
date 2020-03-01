@@ -53,6 +53,7 @@ def main():
     else:
         print("Mohon jalankan command berikut")
         print(">> conda install jupyter nb_conda_kernels")
-        
+
+
 if __name__ == "__main__":
     main()
