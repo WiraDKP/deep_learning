@@ -49,7 +49,7 @@ dependencies:
   - jcopdl==1.1.0
   - luwiji==1.1.0
   # CV
-  - opencv-python==3.4.3.18
+  - opencv-python==4.2.0.32
   # - pillow==5.4.1 # Kalau ada error di pillow
   # Reinforcement Learning
   - gym==0.12.5
