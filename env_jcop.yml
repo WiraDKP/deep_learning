@@ -46,8 +46,8 @@ dependencies:
   - scikit-optimize==0.5.2
   - swifter==0.281
   - jcopml==1.1.4
-  - jcopdl==1.1.0
-  - luwiji==1.1.0
+  - jcopdl==1.1.1
+  - luwiji==1.1.1
   # CV
   - opencv-python==4.2.0.32
   # - pillow==5.4.1 # Kalau ada error di pillow
