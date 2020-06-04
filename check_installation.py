@@ -5,9 +5,9 @@ req = {
     "scikit-learn", "matplotlib", "seaborn", "ipywidgets", "nltk", 
     "xgboost", "scikit-optimize", "jcopml", "luwiji", "pillow", "jcopdl", "pytorch"
 }
-env_name = "jcop"
+env_name = "jcopdl"
 working_folder = "deep_learning"
-env_file = "env_jcop.yml"
+env_file = "env_jcopdl.yml"
 
 
 def existing_env():

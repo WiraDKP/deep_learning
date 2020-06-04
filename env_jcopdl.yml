@@ -1,4 +1,4 @@
-name: jcop
+name: jcopdl
 
 channels:
 - conda-forge
@@ -18,15 +18,10 @@ dependencies:
 - pandas==0.25.3
 # Machine Learning
 - scikit-learn==0.22
-- statsmodels==0.9.0
-- imbalanced-learn==0.4.3
-- scikit-surprise==1.0.6
 # Visualization
 - matplotlib==3.1.2
 - seaborn==0.9.0
 - ipywidgets==7.4.2
-- networkx==2.3
-- plotly==4.5.2
 # NLP
 - nltk==3.4.1
 - torchtext==0.5.0
@@ -34,21 +29,12 @@ dependencies:
 - pytorch==1.4
 # Computer Vision
 - torchvision==0.5.0
-- pillow==6.2.1
-# REST API
-- flask==1.0.2
-- flask-cors==3.0.7
+- pillow==5.4.1
 
 - pip:
   # Machine Learning
   - xgboost==0.80
   - scikit-optimize==0.7.4
-  - swifter==0.281
   - jcopml==1.1.7
   - jcopdl==1.1.1
-  - luwiji==1.1.1
-  # CV
-  - opencv-python==4.2.0.32
-  # - pillow==5.4.1 # Kalau ada error di pillow
-  # Reinforcement Learning
-  - gym==0.12.5
+  - luwiji==1.1.2

@@ -74,4 +74,11 @@ Note: Untuk course ini, dan kedepannya, kita akan buat environment baru sehingga
     ```
     python check_installation.py
     ```
-- Jika sudah aman, maka kita bisa mulai belajar. Semangat!
+- Jika sudah aman, maka akan muncul keterangan berikut, dan kita bisa mulai belajar. Semangat!
+    ```
+    ✓ jupyter telah terinstall dengan baik
+    ✓ nb_conda_kernels telah terinstall dengan baik
+    ✓ Environment jcopdl terdeteksi
+    ✓ Package telah terinstall dengan baik di dalam environment jcopdl
+    ✓ Instalasi berjalan dengan baik. Selamat belajar!
+    ```
