@@ -17,7 +17,7 @@ def data4pred(model, dataset, dataloader, device):
     plt.plot(dataset.target_ticks, preds, 'r-', label="pred")
     plt.legend()    
     
-def pred4pred(model, dataset, dataloader, device, n_prior=500, n_forecast=200):
+def pred4pred(model, dataset, dataloader, device, n_prior=75, n_forecast=30):
     preds, targets = [], []
     hidden = None    
     end = n_prior + n_forecast    
