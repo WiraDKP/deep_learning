@@ -66,7 +66,7 @@ Note: Untuk course ini, dan kedepannya, kita akan buat environment baru sehingga
     ```
 - Jalankan command ini untuk menginstall environment `jcop`
     ```
-    conda env create -f env_jcop.yml
+    conda env create -f env_jcopdl.yml
     ```
 
 ## Step 5: Memastikan environment terinstall dengan baik
